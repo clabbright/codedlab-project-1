@@ -1,0 +1,43 @@
+/* Search Container */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Search Field Initial State */
+.search-field {
+  --mdui-textfield-width: 40px;
+  --mdui-textfield-border-radius: 20px;
+  transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* Input Styling */
+.search-input {
+  width: 100%;
+  pdding: 8px 12px;
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: width 0.3s ease;
+  cursor: pointer;
+}
+
+/* Expand on Focus */
+.search-input:focus {
+  --mdui-textfield-width: 200px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: text;
+}
+
+/* Search Button Styling */
+.search-button {
+  cursor: pointer;
+}
+
+/* Icon Styling */
+mdui-icon {
+  color: #555;
+}

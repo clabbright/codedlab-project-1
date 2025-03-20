@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+mdui-layout {
+    height: 100vh !important;
+
+}
+mdui-navigation-drawer {
+    padding: 10px !important;
+}
+mdui-navigation-drawer mdui-list {
+    padding: 10px;
+}
+
+mdui-layout-item, mdui-layout-main {
+    overflow-y: scroll;
+    
+}
